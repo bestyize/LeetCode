@@ -13,6 +13,12 @@ public class QuickSort {
         quickSort(nums,left,right);
     }
 
+    /**
+     *
+     * @param nums
+     * @param left
+     * @param right
+     */
     private void quickSort(int[] nums, int left, int right) {
         if(left<right){
             int i=left,j=right;
