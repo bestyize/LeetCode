@@ -26,4 +26,11 @@ public class ListNode {
             curr=curr.next;
         }
     }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                '}';
+    }
 }
