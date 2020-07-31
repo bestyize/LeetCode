@@ -1,5 +1,8 @@
 package com.yize.tencent;
 
+/**
+ * 最长回文子串
+ */
 public class LongestPalindrome {
     public String longestPalindrome(String str){
         int maxLen=0,maxStart=0;
