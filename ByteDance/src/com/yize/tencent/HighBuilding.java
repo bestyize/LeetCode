@@ -42,7 +42,7 @@ public class HighBuilding {
         }
         int[] result=new int[len];
         for (int i=0;i<len;i++){
-            result[i]=left[i]+right[i]+;
+            result[i]=left[i]+right[i]+1;
         }
         return result;
     }
